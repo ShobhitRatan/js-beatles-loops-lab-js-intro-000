@@ -1,5 +1,5 @@
 // add solution here
-function theBeetlesPlay() {
+function theBeetlesPlay(musicians, instruments) {
   var array = [];
   let musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr'];
   let instruments = ['Guitar', 'Bass Guitar', 'Lead Guitar', 'Drums'];
