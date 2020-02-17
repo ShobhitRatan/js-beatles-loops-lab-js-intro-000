@@ -1,7 +1,7 @@
 // add solution here
 function theBeetlesPlay(musicians, instruments) {
   var array = [];
-  for (let i = 0; i < musicians.length; i+= 1) {
+  for (let i = 0; i < musicians.length; i++) {
     array.push (i == 0 ? `${musicians[i]} plays ${instruments[i]}` : `${musicians[i]} plays ${instruments[i]}`);
   }
   return array;
